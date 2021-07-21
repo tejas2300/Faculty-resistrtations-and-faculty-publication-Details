@@ -1,0 +1,314 @@
+
+
+
+:root {
+  --light-green : #299;
+  --light-black : rgb(55, 56, 56);
+  --dark-green :#277;
+  --dark-black :rgb(0, 0, 0);
+}
+
+*{
+  font-family: 'jura',sans-serif;
+  margin :0;
+  padding :0;
+  box-sizing: border-box;
+
+}
+
+.container1{
+  /* border:solid 4px rgb(31, 10, 228) ; */
+  margin-top: 50px;
+  padding-left: 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 60px;
+  color: #00004d;
+  text-align: justify;
+  background-color: #adaeff;
+  border-radius: 10px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  border-block-end-style: double;
+  transition: transform .4s; 
+  cursor: pointer;
+
+}
+
+/* .zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; 
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+} */
+
+.container1:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+.container1 :p{
+  font-size: 30px;
+}
+
+
+/* Home page css */
+.section{
+  border-style: solid;
+  color:#fff;
+  border-radius: 20px;
+  width: 1300px;
+  height: 300px; 
+  margin-right: auto;
+  margin-left: auto;
+  padding: 7px 30px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.headsection{
+ 
+  font-size: 50px;
+  font-family: "Roboto Condensed";
+}
+
+.img_fr{
+  height: 250px;
+  width: 250px;
+  margin : 1rem 0 0 10rem;
+ }
+
+.img_fi{
+  height: 250;
+  width: 368px;
+  margin : 1rem 0 0 10rem;
+ }
+.img_pb{
+  height: 250;
+  width: 333px;
+  margin : 1rem 0 0 10rem;
+ }
+ .fr_section{
+  width: 800px;
+  height: 250px;
+ 
+ }
+
+
+  .description{
+    padding :10px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .home{
+   background-color:#d7e3f3;
+   /* background-color:#4d4949; */
+    left :0;
+    bottom : 0;
+    width : 100%;;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+.navigation_bar{
+
+  background-color:   #191d22;
+}
+/* .nave_title.a{
+  color: #fff
+} */
+
+.navebar_frfpd{
+  color: bisque;
+}
+.nav_items{
+margin-left: auto;
+margin-right: 20px;
+}
+
+.navebar_frfpd{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.formContainer{
+    border: 4px solid rgb(43, 42, 42);
+    width: 800px;
+    height: fit-content;
+    margin: 60px;
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    top: 50px;
+    bottom: 60px;
+    border-radius: 17px;
+  background-color: #ecebea;
+    
+  }
+
+  
+  .submit_btn{
+    background-color: #4CAF50; /* Green */
+    
+    color: white;
+    padding: 15px ;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    margin-left: 320px;
+    margin-right: auto;
+    margin-top: 15px;
+    /* margin: auto; */
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    font-size: 13px;
+  }
+
+  .submit_btn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+
+  /* //Footer CSS */
+.copy_footer{
+  background-color: rgb(129, 126, 126) ;
+  color: #ffffff;
+  padding-left: 5px;
+}
+.contact_footer{
+    border-top: 2px solid rgb(114, 109, 109);
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+
+  }
+  .contact_us{
+    font-size: 30px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
+  }
+
+  /* Faculty Information */
+  .fi_title{
+    font-size: 40px;
+    background-color: rgba(28, 28, 192,0.8);
+    width: fit-content;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    font-family: 'Metropolis-Regular', "Segoe UI", Helvetica Neue, Helvetica, sans-serif;
+  }
+  .pi_title{
+    font-size: 40px;
+    background-color: rgba(28, 28, 192,0.8);
+    width: fit-content;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    font-family: 'Metropolis-Regular', "Segoe UI", Helvetica Neue, Helvetica, sans-serif;
+  }
+  .Fidiv{
+    background-color:#d7e3f3;
+    color: #191d22;
+    padding: 50px;
+    text-align: center;
+  }
+  .Pidiv{
+    background-color:#d7e3f3;
+    color: #191d22;
+    padding: 50px;
+    text-align: center;
+  }
+
+  
+
+  /* 263238 */
+
+  /*footer*/
+.col_white_amrc { color:#FFF;}
+footer { width:100%; background-color:#000000; min-height:250px; padding:10px 0px 25px 0px ;}
+.pt2 { padding-top:40px ; margin-bottom:20px ;}
+footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
+.mb10 { padding-bottom:15px ;}
+.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc li {padding:0px 0px 5px 0px;}
+.footer_ul_amrc li a{ color:#CCC;}
+.footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
+.fleft { float:left;}
+.padding-right { padding-right:10px; }
+
+.footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
+.footer_ul2_amrc li p { display:table; }
+.footer_ul2_amrc li a:hover { text-decoration:none;}
+.footer_ul2_amrc li i { margin-top:5px;}
+
+.bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li { display:inline;}
+.foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
+
+.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
+.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+
+
+
+
+
+
+/* aboutUs */
+.aboutUs{
+  color: #141220;
+  padding: 30px;
+  background-color: #d7e3f3;
+
+  
+
+}
+.about_content{
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 60px;
+  border-radius: 30px;
+
+  
+
+}
+.aboutImg{
+/* background-image: url(./aboutimg.jpg); */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+overflow: hidden;
+}
+.regi_form{
+  padding: 40px;
+}
